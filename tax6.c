@@ -1,29 +1,16 @@
 #include<stdio.h>
-
-
 int main(){
-	 int x;
+	
+	int b_s , hra , da , ta , g_s ;
+	
+	printf("Enter your B.S. :");
+	scanf("%d",&b_s);
+	
+	hra = (10 * b_s) / 100 ;
+	da = (5 * b_s) / 100 ;
+	ta = (8 * b_s) / 100 ;	
+	 g_s = b_s + hra + da + ta ;
 	 
-	 
-	 printf("Enter of x velue: ");
-	scanf("%d",&x);
-	
-	int y;
-	printf("Enter of y velue: ");	
-	
-	scanf("%d",&y);
-	
-	
-	
-	int z;
-	printf("Enter of z velue: ");	
-	
-	scanf("%d",&z);
-	
-	
-	int ans;
-	
-	ans = (x*x*x) - (y*y*y) - (z*z*z) - (3*(x+y)) + (3*(y+z)) + (3*(z+x));
-	
+	 printf("G.S.: %d",g_s);
 	
 }

@@ -1,23 +1,29 @@
 #include<stdio.h>
+
 int main(){
-	 int x;
+	
+	int a;
+	int b;
+	int c;
+	
+	printf("Enter Velue Of A :");
+	scanf("%d",&a);
+	
+	
+	printf("Enter Velue Of B :");
+	scanf("%d",&b);
+	
+	
+	c = a;
+	a = b;
+	b = c;
 	 
+	printf("A : %d \n",a);
+	printf("B : %d",b);
 	 
-	 printf("Enter of x velue: ");
-	scanf("%d",&x);
-	
-	int y;
-	printf("Enter of y velue: ");	
-	
-	scanf("%d",&y);
 	
 	
-	int ans;
-	
-	ans =   (x*x*x) + ((3*x*y)*(x+y)) + (y*y*y);
-	
-	
-	printf("%d",ans);
 	
 	return 0;
+	
 }

@@ -1,23 +1,18 @@
 #include<stdio.h>
-int main(){
-	 int x;
-	 
-	 
-	 printf("Enter of x velue: ");
-	scanf("%d",&x);
-	
-	int y;
-	printf("Enter of y velue: ");	
-	
-	scanf("%d",&y);
+
+int main (){
 	
 	
-	int ans;
+	printf("\t\t*\t\t*\n");
+	printf("\t*\t\t*\n");
+	printf("*\t\t*\n");
+	printf("\t*\t\t*\n");
+	printf("\t\t*\t\t*\n");
 	
-	ans =  (x*x) + (2*x*y) + (y*y);
 	
 	
-	printf("%d",ans);
+	
+	
 	
 	return 0;
 }
