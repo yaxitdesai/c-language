@@ -7,7 +7,7 @@ int main() {
 
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')){
 	
-        printf("your value  is an alphabet.", c);
+        printf("your value  is an alphabet.");
         
         
 		}
@@ -20,7 +20,7 @@ int main() {
 		
     else{
 	
-        printf("your value is special char.", c);
+        printf("your value is special char.");
 }
     return 0;
 }
