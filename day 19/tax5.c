@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 
 int main(){
@@ -9,7 +8,7 @@ int main(){
  	 printf("enter size of colum:");
 	 scanf("%d",&n);
 	 int i,j;
-	 int a[m][n];
+	 int a[m][n] , b[m][n];
 	 for(i=0;i<m;i++){
 	 	for(j=0;j<n;j++){
 		 
@@ -21,27 +20,30 @@ int main(){
 	 	 for(i=0;i<m;i++){
 	 	 	
 	 	 for(j=0;j<n;j++){
-	 	 printf("%d ",a[i][j]);
+	 	 printf("%d",a[i][j]);
 }
       printf("\n");
 	 }
-
-
-
-      for(i = 0; i < m; i++)
-    {
-     int sum = 0;
-        for(j = 0; j < n; j++)
-        {
-            sum += a[i][j];
-        }
-        printf("The Sum of row Elements in a Matrix =  %d  \n", sum );
-    }
-    
-    return 0;
+     
+     printf("\n\n");
+     
+     for(i=0;i<m;i++){
+	 	 	
+	 	 for(j=0;j<n;j++){
+	 	 
+	 	 b[j][i] = a[i][j];
 }
 
+}
 
-	
-
-
+      for(i=0;i<m;i++){
+	 	 	
+	 	 for(j=0;j<n;j++){
+	 	 printf("%d",b[i][j]);
+}
+      printf("\n");
+	 }
+    
+    
+	return 0;
+}
